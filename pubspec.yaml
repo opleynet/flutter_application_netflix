@@ -9,11 +9,30 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
 
+flutter_launcher_icons:
+  image_path: "assets/images/symbol.png"
+  ios: true
+  android: launcher_icon
+  background_color: "#000000"
+  min_sdk_android: 21
+  color: "#000000"
+
+  flutter_native_splash:
+    color: "#000000"
+    image: assets/images/symbol.png
+    android: true
+    ios: true
+
+
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
