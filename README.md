@@ -16,3 +16,7 @@ Ca crée les icones android et logo
 
 Pour le native splash
 - flutter pub run flutter_native_splash:create
+
+Animations package lottie
+- flutter pub add lottie
+
